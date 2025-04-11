@@ -1,11 +1,19 @@
+:root{
+    --color-pink: #dc3545; 
+    --color-red: #f25035;
+    --color-yellow: #ffd119;
+}
+
 @font-face {
     font-family: mandoulFont;
     src: url(../fonts/MANDOULBRUSHPERSONALUSEONLY-REGULAR.otf);
 }
+
 @font-face {
     font-family: robotoBold;
     src: url(../fonts/Roboto/Roboto-Bold.ttf);
 }
+
 @font-face {
     font-family: robotoRegular;
     src: url(../fonts/Roboto/Roboto-Regular.ttf);
@@ -16,8 +24,114 @@
     src: url(../fonts/Roboto/Roboto-Thin.ttf);
 }
 
-header{
+body {
+    font-family: robotoRegular;
+
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+p,li,a,h1,h2,h3,h4,h5{
+    line-height: 1.4;
+}
+header {
     font-family: robotoBold;
 }
 
+.cta-red {
+    background-color: #ff6262;
+    color: white;
+    display: block;
+    width: 50%;
+    margin: 25px auto;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 7px;
 
+}
+
+
+/* home-badges */
+
+.home-badges {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.home-badges img {
+    width: 24%;
+    margin: auto;
+}
+
+
+/* check my vybe */
+
+.check {
+    width: 75%;
+    margin: auto;
+    margin-bottom: -25px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.check-my-vybe h2 {
+    font-size: 90px;
+    text-transform: uppercase;
+    color: #ffd900;
+    text-align: center;
+    font-weight: 900;
+    margin: 0;
+    margin-bottom: -12px;
+    line-height: 1;
+
+}
+
+.check-my-vybe ul li img {
+    width: 40px;
+}
+
+.check-my-vybe ul li h3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;
+    color: #212529;
+
+}
+
+.check-my-vybe ul li {
+    margin-bottom: 15px;
+}
+
+.check-my-vybe ul li p {
+    margin-top: 10px;
+    color: #999;
+}
+
+.check-my-vybe .last{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.check-my-vybe .last span{
+    
+    color: var(--color-pink);
+}
+
+
+
+
+
+
+background: -webkit-linear-gradient(-20deg, #b97426, #fbb263 59%, #d08738);

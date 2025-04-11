@@ -73,8 +73,13 @@
 
 
 /* header */
-.header {
+.header-div {
     background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 7%;
 }
 
 .navbar-toggler-icon {
@@ -85,17 +90,21 @@
     height: 1.5em;
     vertical-align: middle;
     width: 1.5em;
+    color: white;
     background-image: url(data:image/svg+xml;charset=utf8;base64,PHN2ZyB2aWV3Qm94PScwIDAgMzIgMzInIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zyc+PHBhdGggc3Ryb2tlPSdyZ2IoMjU1LDI1NSwyNTUpJyBzdHJva2Utd2lkdGg9JzInIHN0cm9rZS1saW5lY2FwPSdyb3VuZCcgc3Ryb2tlLW1pdGVybGltaXQ9JzEwJyBkPSdNNCA4aDI0TTQgMTZoMjRNNCAyNGgyNCcvPjwvc3ZnPg==);
 }
 
 .vibe-logo{
     color: white;
     text-transform: uppercase;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 700;
 
 }
 
  .shopping-bag i{
     color: white;
+    font-size: 22px;
  }
+
+ 
