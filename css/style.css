@@ -1,0 +1,23 @@
+@font-face {
+    font-family: mandoulFont;
+    src: url(../fonts/MANDOULBRUSHPERSONALUSEONLY-REGULAR.otf);
+}
+@font-face {
+    font-family: robotoBold;
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: robotoRegular;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: robotoThin;
+    src: url(../fonts/Roboto/Roboto-Thin.ttf);
+}
+
+header{
+    font-family: robotoBold;
+}
+
+
