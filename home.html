@@ -1,78 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/footer.css">
-    <script src="https://kit.fontawesome.com/470297acee.js" crossorigin="anonymous"></script>
 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
+    <script src="https://kit.fontawesome.com/470297acee.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
-        <div class="first-line-div">
-            <p class="first-line">Free delivery for orders over  40.00 €</p>
-            <p class="second-line">Delivery from <span>Bulgaria</span></p>
+        <div class="first-line-div animation">
+            <div>
+                <p class="animation-line">Free delivery for orders over 40.00 €</p>
+            </div>
+            <div>
+                <p class="animation-line">
+                    Delivery from <span>Bulgaria</span>
+                </p>
+            </div>
+            <div>
+                <p class="animation-line">Free delivery for orders over 40.00 €!!</p>
+            </div>
+
         </div>
         <div class="header">
             <div class="header-div">
-                <span class="navbar-toggler-icon"></span>
+                <span id="navbar" class="navbar-toggler-icon"></span>
+                <div id="menu" class="menu">
+                    <a href="">Shop</a>
+                    <a href="">Reviews</a>
+                    <a href="">Our clients</a>
+                    <a href="">About us</a>
+                    <a href=""><i class="fas fa-shopping-bag"></i></a>
+                </div>
                 <a href="" class="vibe-logo">vybe</a>
                 <a class="shopping-bag" href="">
-                    <i class="fas fa-shopping-bag"></i> 
+                    <i class="fas fa-shopping-bag"></i>
                 </a>
             </div>
-            
         </div>
     </header>
+
     <body>
         <div class="hero">
-            <img src="./images/cover-m-ssb.webp" alt="VYBE">
+            <img src="./images/cover-m-ssb.webp" alt="VYBE" />
             <a class="cta-red" href="shop">see more</a>
         </div>
         <div class="home-badges">
-            <img src="./images/home-badges/Badge-index-natural.svg" alt="natural">
-            <img src="./images/home-badges/Badge-index-made-in-eu.svg" alt="made in eu">
-            <img src="./images/home-badges/Badge-index-vegan.svg" alt="vegan">
-            <img src="./images/home-badges/Badge-index-cruelty-free.svg" alt="cruelty free">
-
+            <img src="./images/home-badges/Badge-index-natural.svg" alt="natural" />
+            <img src="./images/home-badges/Badge-index-made-in-eu.svg" alt="made in eu" />
+            <img src="./images/home-badges/Badge-index-vegan.svg" alt="vegan" />
+            <img src="./images/home-badges/Badge-index-cruelty-free.svg" alt="cruelty free" />
         </div>
         <div class="check-my-vybe">
-            <img class="check" src="./images/brush-script_check.svg" alt="check">
+            <img class="check" src="./images/brush-script_check.svg" alt="check" />
             <h2>My Vybe</h2>
-            <img class="check-girls" src="./images/Index-check-my-vybe-mobile.jpg" alt="girls">
+            <img class="check-girls" src="./images/Index-check-my-vybe-mobile.jpg" alt="girls" />
             <ul class="container">
                 <li>
-                    <h3><img src="./images/check-my-vybe/Icons_INDEX_TAN_ACCELERATOR.svg" alt="TAN ACCELERATOR">TAN ACCELERATOR</h3>
-                    <p>Tan several times faster than usual thanks to our 100% natural tanning oil formula. 
+                    <h3>
+                        <img src="./images/check-my-vybe/Icons_INDEX_TAN_ACCELERATOR.svg" alt="TAN ACCELERATOR" />TAN
+                        ACCELERATOR
+                    </h3>
+                    <p>
+                        Tan several times faster than usual thanks to our 100% natural
+                        tanning oil formula.
                     </p>
                 </li>
                 <li>
-                    <h3><img src="./images/check-my-vybe/Icons_INDEX_BOOST_MELANIN.svg" alt="BOOST MELANIN">BOOST MELANIN</h3>
-                    <p>Get a deep chocolate tan, by naturally stimulating the production of melanin in the skin.
+                    <h3>
+                        <img src="./images/check-my-vybe/Icons_INDEX_BOOST_MELANIN.svg" alt="BOOST MELANIN" />BOOST
+                        MELANIN
+                    </h3>
+                    <p>
+                        Get a deep chocolate tan, by naturally stimulating the production
+                        of melanin in the skin.
                     </p>
                 </li>
                 <li>
-                    <h3><img src="./images/check-my-vybe/Icons_INDEX_DEEP_HYDRATION.svg" alt="DEEP HYDRATION">DEEP HYDRATION</h3>
-                    <p>Speed up and “seal” tanning, by hydrating your skin to the core with a complex of natural oils! 
+                    <h3>
+                        <img src="./images/check-my-vybe/Icons_INDEX_DEEP_HYDRATION.svg" alt="DEEP HYDRATION" />DEEP
+                        HYDRATION
+                    </h3>
+                    <p>
+                        Speed up and “seal” tanning, by hydrating your skin to the core
+                        with a complex of natural oils!
                     </p>
-                </li> 
+                </li>
             </ul>
-            <p class="last container"><span>Тan faster & better.</span> Keep your tan for long! </p>
+            <p class="last container">
+                <span>Тan faster & better.</span> Keep your tan for long!
+            </p>
             <a class="cta-red" href="shop">see more</a>
-
         </div>
         <div class="benefits">
-            <h2 class="title">
-                Next generation FAST tanning formulas.
-            </h2>
+            <h2 class="title">Next generation FAST tanning formulas.</h2>
         </div>
     </body>
     <footer>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
     </footer>
+
+    <script src="./js/index.js"></script>
 </body>
+
 </html>

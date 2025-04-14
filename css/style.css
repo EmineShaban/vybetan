@@ -4,6 +4,10 @@
     --color-yellow: #ffd119;
 }
 
+html{
+    scroll-behavior: smooth;
+    }
+
 @font-face {
     font-family: mandoulFont;
     src: url(../fonts/MANDOULBRUSHPERSONALUSEONLY-REGULAR.otf);
@@ -134,4 +138,4 @@ header {
 
 
 
-background: -webkit-linear-gradient(-20deg, #b97426, #fbb263 59%, #d08738);
+/* background: -webkit-linear-gradient(-20deg, #b97426, #fbb263 59%, #d08738); */
