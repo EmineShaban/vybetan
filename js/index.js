@@ -17,7 +17,7 @@ navbar.addEventListener(("click"), (e) => {
     }
 })
 
- 
+
 
 //Start animation when scrolled into view
 const observer = new IntersectionObserver(intersections => {
@@ -27,7 +27,7 @@ const observer = new IntersectionObserver(intersections => {
     }) => {
         target.classList.toggle('animation-background', isIntersecting);
         target.children[0].classList.toggle('change', isIntersecting);
-        target.children[1].classList.toggle('toggle', isIntersecting); 
+        target.children[1].classList.toggle('toggle', isIntersecting);
     });
 }, {
     threshold: 0
@@ -35,4 +35,23 @@ const observer = new IntersectionObserver(intersections => {
 
 document.querySelectorAll('.switch_container').forEach(div => {
     observer.observe(div);
+});
+
+
+const observer2 = new IntersectionObserver(intersections => {
+    intersections.forEach(({
+        target,
+        isIntersecting
+    }) => {
+        target.children[0].classList.toggle('slide-in-top', isIntersecting);
+        target.children[1].classList.toggle('slide-in-right', isIntersecting);
+        target.children[2].classList.toggle('slide-in-right', isIntersecting);
+        target.children[3].classList.toggle('slide-in-right', isIntersecting);
+
+    });
+}, {
+    threshold: 0
+});
+document.querySelectorAll('.banner-aft-div').forEach(div => {
+    observer2.observe(div);
 });  
