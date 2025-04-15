@@ -2,6 +2,8 @@
     --color-pink: #dc3545;
     --color-red: #f25035;
     --color-yellow: #ffd119;
+    --color-brown: #dc9441;
+
 }
 
 html {
@@ -336,7 +338,7 @@ header {
     }
 }
 
-.animation {
+.animation-background {
     animation: change 1s 0.7s ease-in both;
 }
 
@@ -357,7 +359,7 @@ header {
 /* love-summer */
 
 
-.love-summer h2{
+.love-summer h2 {
     text-align: center;
     display: flex;
     flex-direction: row;
@@ -371,14 +373,97 @@ header {
 
 }
 
-.love-summer h2 img{
+.love-summer h2 img {
     width: 45px;
 }
 
 
-.love-summer p{
+.love-summer p {
     color: #212529;
     line-height: 1.5;
     margin: 0 0 20px;
     text-align: center;
+}
+
+/* products */
+
+.product h2{
+    font-family: robotoBold;
+    color: var(--color-brown);
+    font-size: 90px;
+    text-align: center;
+    margin-bottom: -33px;
+    z-index: 2;
+    position: relative;
+    font-weight: 700;
+}
+
+
+.gold-background{
+    background: -webkit-linear-gradient(-20deg, #b97426, #fbb263 59%, #d08738);
+}
+
+.product-div{
+    color: white;
+    margin-top: -3px;
+    padding: 10px 5%;
+}
+
+.product-div h3{
+    font-size: 30px;
+}
+
+.product-div p{
+    font-size: 22px;
+    line-height: 1;
+    font-weight: 800;
+}
+.product-div ul{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.product-div ul li{
+    list-style-type: disc;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.product-div ul li b {
+    display: block;
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+
+.product-cta {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    text-transform: uppercase;
+    margin-bottom: -30px;
+}
+
+.product-cta a{
+    background-color: #212529;
+    display: block; 
+    color: white;
+    font-weight: 700;
+    padding: 9px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    animation: pulse 1s infinite;
+
+}
+
+@keyframes pulse {
+
+0% {
+    box-shadow: 0 0 0 5px #fff;
+    -webkit-box-shadow: 0 0 0 5px #fff;
+}
+100% {
+    box-shadow: 0 0 0 20px transparent;
+    -webkit-box-shadow: 0 0 0 20px transparent;
+}
+
 }

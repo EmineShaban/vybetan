@@ -25,7 +25,7 @@ const observer = new IntersectionObserver(intersections => {
         target,
         isIntersecting
     }) => {
-        target.classList.toggle('animation', isIntersecting);
+        target.classList.toggle('animation-background', isIntersecting);
         target.children[0].classList.toggle('change', isIntersecting);
         target.children[1].classList.toggle('toggle', isIntersecting); 
     });
