@@ -17,4 +17,50 @@ navbar.addEventListener(("click"), (e) => {
 })
 
 
-const myTimeout = setTimeout(myGreeting, 5000);
+
+
+
+
+
+
+
+const observer1 = new IntersectionObserver(intersections => {
+    intersections.forEach(({
+        target,
+        isIntersecting
+    }) => {
+        target.classList.toggle('change', isIntersecting);
+    });
+}, {
+    threshold: 0
+});
+const observer2 = new IntersectionObserver(intersections => {
+    intersections.forEach(({
+        target,
+        isIntersecting
+    }) => {
+        target.classList.toggle('toggle', isIntersecting);
+    });
+}, {
+    threshold: 0
+});
+const observer3 = new IntersectionObserver(intersections => {
+    intersections.forEach(({
+        target,
+        isIntersecting
+    }) => {
+        target.classList.toggle('animation', isIntersecting);
+    });
+}, {
+    threshold: 0
+});
+document.querySelectorAll('.button1').forEach(div => {
+    observer1.observe(div);
+});
+
+document.querySelectorAll('.button2').forEach(div => {
+    observer2.observe(div);
+});
+document.querySelectorAll('.switch_container').forEach(div => {
+    observer3.observe(div);
+}); 
