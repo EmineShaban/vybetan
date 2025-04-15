@@ -1,3 +1,4 @@
+//navbar
 let active = document.getElementsByClassName("active")[0]
 let navbar = document.getElementById("navbar")
 let menu = document.getElementsByClassName("menu")[0]
@@ -16,51 +17,22 @@ navbar.addEventListener(("click"), (e) => {
     }
 })
 
+ 
 
-
-
-
-
-
-
-
-const observer1 = new IntersectionObserver(intersections => {
-    intersections.forEach(({
-        target,
-        isIntersecting
-    }) => {
-        target.classList.toggle('change', isIntersecting);
-    });
-}, {
-    threshold: 0
-});
-const observer2 = new IntersectionObserver(intersections => {
-    intersections.forEach(({
-        target,
-        isIntersecting
-    }) => {
-        target.classList.toggle('toggle', isIntersecting);
-    });
-}, {
-    threshold: 0
-});
-const observer3 = new IntersectionObserver(intersections => {
+//Start animation when scrolled into view
+const observer = new IntersectionObserver(intersections => {
     intersections.forEach(({
         target,
         isIntersecting
     }) => {
         target.classList.toggle('animation', isIntersecting);
+        target.children[0].classList.toggle('change', isIntersecting);
+        target.children[1].classList.toggle('toggle', isIntersecting); 
     });
 }, {
     threshold: 0
 });
-document.querySelectorAll('.button1').forEach(div => {
-    observer1.observe(div);
-});
 
-document.querySelectorAll('.button2').forEach(div => {
-    observer2.observe(div);
-});
 document.querySelectorAll('.switch_container').forEach(div => {
-    observer3.observe(div);
-}); 
+    observer.observe(div);
+});  
