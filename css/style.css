@@ -1243,9 +1243,9 @@ footer button {
     }
 
     .home-badges {
-        width: 70%;
+        width: 60%;
         margin: auto;
-        column-gap: 15px;
+        column-gap: 10px;
     }
 
     .header-div {
@@ -1289,6 +1289,57 @@ footer button {
         width: 100%;
     }
 
+
+
+    .product {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 50px;
+
+    }
+
+    .banner-aft-background {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        column-gap: 15px;
+        justify-content: space-between;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .banner-aft-background img {
+        width: 100%;
+    }
+
+    .menu {
+        width: 88%;
+    }
+
+    .turn-sexy {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+
+    .turn-sexy h3 {
+        margin: auto;
+        margin-right: 0;
+    }
+
+    .button1 {
+        font-size: 75px;
+    }
+
+    .button2 {
+        height: 70px;
+        width: 70px;
+    }
+
+
+
+
+
     .gold {
         width: 87%;
         margin: auto;
@@ -1322,15 +1373,176 @@ footer button {
 
     }
 
-    .product{
-        width: 70%;
-        margin: auto;
-        margin-bottom: 50px;
+    .card,
+    .card.reverse {
+        width: 75%;
+        margin: 20px auto;
+    }
 
+    .typography-div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .typography-div h2:first-child,
+    .typography-div h2:last-child {
+        font-size: 90px;
+    }
+
+    .typography-div img {
+        width: 85%;
+    }
+
+    .carousel-description {
+        margin-bottom: 50px;
+    }
+
+    .sw-div {
+        width: 87%;
+    }
+
+    .cta-banner span {
+        display: inline;
+    }
+
+    .footer-div {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        column-gap: 40px;
     }
 
 
+    .subscribe {
+        width: 50%;
+    }
+
+    footer {
+        background-color: #1c1c1c;
+        background-image: url(../images/VYBE_logo.svg);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+    }
+
+    .footer-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10px;
+
+    }
+
+    .hydation24 {
+        width: 20%;
+        margin: auto;
+        margin-left: 0;
+    }
+
+    .cta-banner {
+        margin: 75px auto;
+    }
+
+    .footer-content-bottom {
+        margin-top: 0;
+    }
+
+    .footer-last {
+        text-align: left;
+    }
+}
 
 
 
+@media only screen and (min-width: 994px) {
+    .container994 {
+        width: 80%;
+        margin: auto;
+    }
+
+    .check-my-vybe-brush {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        column-gap: 20px;
+        margin-top: 50px;
+    }
+
+    .check {
+        width: 100%;
+        margin: auto;
+
+    }
+
+    .check-my-vybe h2 {
+        font-size: 110px;
+        font-family: robotoBold;
+
+    }
+
+    .home-badges img {
+        width: 22%;
+        margin: auto;
+    }
+
+
+    .home-badges {
+        width: 45%;
+        margin: auto;
+        column-gap: 0;
+    }
+
+    .badge {
+        width: 150px;
+        margin-left: 10%;
+        margin-top: -75px;
+    }
+
+    .benefits-div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .card.reverse {
+        display: grid;
+        grid-template-columns: 80px 1fr;
+        grid-auto-flow: dense;
+    }
+
+    .reverse img {
+        grid-row: 1;
+    }
+    .card, .card.reverse {
+        width: 100%;
+        margin: 20px auto;
+        align-items: flex-end;
+    }
+    .red, .yellow, .gold {
+        width: 80%;
+        margin: auto;
+        margin-left: -3%;
+        padding: 25px 15px;
+        padding-left: 10%;
+        margin-top: unset;
+        margin-bottom: 0;
+        height: 90%;
+    }
+    .love-summer p {
+        width: 75%;
+        margin: 20px auto; 
+    }
+
+    .product-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .product {
+        width: 100%;
+    }
 }
