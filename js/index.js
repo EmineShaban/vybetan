@@ -11,8 +11,7 @@ navbar.addEventListener(("click"), (e) => {
         active.style.opacity = "1";
         bag.style.display = "none"
     } else if (menu.className == "menu active") {
-        menu.className = "menu"
-        menu.style.opacity = "0";
+        menu.className = "menu" 
         bag.style.display = "block"
     }
 })
@@ -54,4 +53,22 @@ const observer2 = new IntersectionObserver(intersections => {
 });
 document.querySelectorAll('.banner-aft-div').forEach(div => {
     observer2.observe(div);
+});  
+
+
+const observer3 = new IntersectionObserver(intersections => {
+    intersections.forEach(({
+        target,
+        isIntersecting
+    }) => {
+        console.log(target.children)
+        target.children[0].classList.toggle('slide-in-right', isIntersecting);
+        target.children[1].classList.toggle('slide-in-top', isIntersecting);
+        target.children[2].classList.toggle('slide-in-left', isIntersecting); 
+    });
+}, {
+    threshold: 0
+});
+document.querySelectorAll('.typography-div').forEach(div => {
+    observer3.observe(div);
 });  
