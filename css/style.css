@@ -1191,6 +1191,14 @@ footer button {
     display: none;
 }
 
+.mobile994 {
+    display: block;
+}
+
+.desktop994 {
+    display: none;
+}
+
 @media only screen and (min-width: 500px) {
     .check {
         width: 60%;
@@ -1421,12 +1429,12 @@ footer button {
         width: 50%;
     }
 
-    footer {
+    .footer-content {
         background-color: #1c1c1c;
         background-image: url(../images/VYBE_logo.svg);
         background-position: bottom;
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: auto;
 
     }
 
@@ -1459,6 +1467,14 @@ footer button {
 
 
 @media only screen and (min-width: 994px) {
+    .mobile994 {
+        display: none;
+    }
+
+    .desktop994 {
+        display: block;
+    }
+
     .container994 {
         width: 80%;
         margin: auto;
@@ -1517,12 +1533,17 @@ footer button {
     .reverse img {
         grid-row: 1;
     }
-    .card, .card.reverse {
+
+    .card,
+    .card.reverse {
         width: 100%;
         margin: 20px auto;
         align-items: flex-end;
     }
-    .red, .yellow, .gold {
+
+    .red,
+    .yellow,
+    .gold {
         width: 80%;
         margin: auto;
         margin-left: -3%;
@@ -1532,12 +1553,13 @@ footer button {
         margin-bottom: 0;
         height: 90%;
     }
+
     .love-summer p {
         width: 75%;
-        margin: 20px auto; 
+        margin: 20px auto;
     }
 
-    .product-grid{
+    .product-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
@@ -1545,4 +1567,329 @@ footer button {
     .product {
         width: 100%;
     }
+
+    .product-cta {
+        width: 30%;
+        margin-top: -20px;
+        z-index: 2;
+        position: relative;
+    }
+
+    .product h2 {
+        font-family: robotoBold;
+        font-size: 100px;
+    }
+
+
+    .banner-aft-div {
+        position: absolute;
+        top: 50%;
+        left: 60%;
+        transform: translate(-50%, -50%);
+        width: max-content;
+    }
+
+    .formula-div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+
+    .typography-div {
+        width: 75%;
+        margin: auto;
+    }
+
+    .cta-banner h2 {
+        font-size: 85px;
+    }
+
+    .last-cta {
+        width: 35%;
+    }
+
+
+
+
+
+
+    .lg-container {
+        position: relative;
+      }
+     
+      .lg-image {
+        height: 100%;
+        width: 100%;
+        margin: auto;
+      }
+     
+      .lg-hotspot {
+        position: absolute;
+        z-index: 0;
+      }
+     
+      .lg-hotspot--selected .lg-hotspot__label {
+        opacity: 1;
+      }
+     
+      .lg-hotspot__button {
+        z-index: 999;
+     
+        animation: button-pulse 7s ease-in-out infinite;
+     
+        cursor: pointer;
+        height: 40px;
+        width: 40px;
+        border-radius: 100%;
+        background-color: rgb(122 124 127);
+        color: white;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+     
+      }
+     
+     
+     
+      .lg-hotspot__label {
+        position: absolute;
+        padding: 0 0 1.1em 0;
+        width: max-content;
+        background-color: white;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        font-family: "Open Sans", sans-serif;
+        z-index: -1;
+        border-radius: 2px;
+        opacity: 0;
+        transition: all 0.1s linear;
+      }
+     
+     
+      .lg-hotspot__label p {
+        margin: 0;
+        padding: 1.1em 24px 0 24px;
+        color: #333;
+        font-size: 14px;
+      }
+     
+      .lg-hotspot--top-right .lg-hotspot__label {
+        top: -44px;
+        right: 28px;
+      }
+     
+      .lg-hotspot--bottom-right .lg-hotspot__label {
+        top: -44px;
+        right: 28px;
+      }
+     
+      
+     @keyframes button-pulse {
+       0% {
+         transform: scale(1, 1);
+         opacity: 1;
+       }
+       40% {
+         transform: scale(1.15, 1.15);
+         opacity: 1;
+       }
+       100% {
+         transform: scale(1, 1);
+         opacity: 1;
+       }
+     }
+
+     
+
+
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+    .cta-banner h2 {
+        width: 85%;
+    }
+
+    .sw-div {
+        width: 85%;
+        min-height: 470px;
+    }
+
+    .product-grid {
+        width: 75%;
+        margin: auto;
+    }
+
+    .product {
+        margin-bottom: 70px;
+    }
+}
+
+
+@media only screen and (min-width: 1400px) {
+    .sw-div {
+        width: 85%;
+        min-height: 490px;
+    }
+
+    .banner-aft-div h2 {
+        font-size: 50px;
+    }
+
+    .banner-aft-div p {
+        font-size: 30px;
+    }
+
+    .product-div h3 {
+        font-size: 40px;
+    }
+
+    .product-div p {
+        font-size: 24px;
+    }
+
+    .product-div ul li b {
+        font-size: 21px;
+    }
+
+    .product-div ul li {
+        list-style-type: disc;
+        font-size: 17px;
+    }
+
+    .product-cta {
+        width: 22%;
+    }
+
+    .turn-sexy {
+        column-gap: 40px;
+
+    }
+
+    .turn-sexy h3 br {
+        display: none;
+    }
+
+    .switch_container {
+        margin-left: 0;
+    }
+
+    .turn-sexy h3 {
+        margin: auto;
+    }
+
+    .turn-sexy {
+        display: flex;
+        width: 60%;
+        flex-direction: row;
+        align-items: center;
+    }
+
+
+    .love-summer h2 {
+        font-size: 45px;
+    }
+
+    .love-summer p {
+        font-size: 20px;
+    }
+    .check-my-vybe ul li h3{
+        font-size: 24px;
+    }
+
+    .check-my-vybe ul li p{
+        font-size: 20px;
+
+    }
+
+
+
+
+
+
+
+}
+@media only screen and (min-width: 1600px) {
+
+.sw-div {
+    width: 85%;
+    min-height: 510px;
+}
+}
+
+@media only screen and (min-width: 1800px) {
+    .container994 {
+        width: 70%;
+        margin: auto;
+    }
+
+    .home-badges img {
+        width: 22%;
+        margin: auto;
+    }
+    .home-badges {
+        width: 35%;
+        margin: auto;
+        column-gap: 0;
+    }
+
+    .check-my-vybe .last {
+        font-weight: 700;
+        font-size: 22px;
+    }
+    .card h3 { 
+        font-size: 28px;
+    }
+    .card h5 { 
+        font-size: 18px;
+    }
+    .black-text { 
+        font-size: 18px;
+    }
+
+    .card a {
+        font-size: 20px;
+    }
+    .turn-sexy {
+        column-gap: 20px;
+    }
+    .product-grid {
+        width: 65%;
+    }
+  
+    .sw-product {
+        width: 75%;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+@media only screen and (min-width: 2000px) {
+
+.sw-div {
+    width: 85%;
+    min-height: 542px;
+}
+.discount-badge { 
+    margin-left: 40px;
+    margin-top: 23px;
+}
+
+}
+
+@media only screen and (min-width: 2400px) {
+    .sw-div {
+        width: 85%;
+        min-height: 600px; 
+    }
+
 }
