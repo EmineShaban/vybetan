@@ -63,187 +63,6 @@ h5 {
     line-height: 1.4;
 }
 
-header {
-    font-family: robotoBold;
-}
-
-
-
-/* header */
-
-
-/* animation first line */
-
-.first-line-div {
-    background-color: #202428;
-    color: white;
-    text-align: center;
-    padding: 2px 0;
-    height: 30px;
-    /* height: 350px; */
-    font-size: 12px;
-    /* overflow: hidden; */
-
-
-}
-
-.animation div:first-child {
-    animation: my-animation 15s infinite;
-    padding-top: 7px;
-
-}
-
-.animation div {
-    display: block;
-    height: 65px;
-    margin-bottom: 10px;
-
-
-}
-
-.animation-line {
-    display: block;
-    /* overflow: hidden; */
-    margin: auto;
-
-}
-
-
-
-@keyframes my-animation {
-    0% {
-        margin-top: 0
-    }
-
-    10% {
-        margin-top: 0
-    }
-
-    20% {
-        margin-top: -75px
-    }
-
-    30% {
-        margin-top: -75px
-    }
-
-    40% {
-        margin-top: -150px
-    }
-
-    60% {
-        margin-top: -150px
-    }
-
-    70% {
-        margin-top: -75px
-    }
-
-    80% {
-        margin-top: -75px
-    }
-
-    90% {
-        margin-top: 0
-    }
-
-    100% {
-        margin-top: 0
-    }
-}
-
-
-
-
-
-
-/* header */
-.header-div {
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 7%;
-}
-
-.navbar-toggler-icon {
-    z-index: 2;
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    display: inline-block;
-    height: 32px;
-    vertical-align: middle;
-    width: 32px;
-    color: white;
-    background-image: url(data:image/svg+xml;charset=utf8;base64,PHN2ZyB2aWV3Qm94PScwIDAgMzIgMzInIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zyc+PHBhdGggc3Ryb2tlPSdyZ2IoMjU1LDI1NSwyNTUpJyBzdHJva2Utd2lkdGg9JzInIHN0cm9rZS1saW5lY2FwPSdyb3VuZCcgc3Ryb2tlLW1pdGVybGltaXQ9JzEwJyBkPSdNNCA4aDI0TTQgMTZoMjRNNCAyNGgyNCcvPjwvc3ZnPg==);
-}
-
-.vibe-logo {
-    color: white;
-    text-transform: uppercase;
-    font-size: 22px;
-    font-weight: 700;
-    z-index: 2;
-}
-
-.shopping-bag i {
-    color: white;
-    font-size: 24px;
-}
-
-/* menu */
-
-.header-div {
-    position: relative;
-}
-
-.menu {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-    background-color: #000;
-    width: 93%;
-    padding-left: 7%;
-    padding-top: 35px;
-    -webkit-transition: all 0.6s ease-in;
-    -moz-transition: all 0.6s ease-in;
-    -o-transition: all 0.6s ease-in;
-    transition: all 0.6s ease-in;
-    opacity: 0;
-}
-
-.menu a:first-child {
-    margin-top: 15px;
-}
-
-.menu a {
-    color: white;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    font-size: 17px;
-}
-
-.menu a i {
-    font-size: 27px;
-}
-
-.active {
-    opacity: 1;
-    -webkit-transition: all 0.6s ease-in;
-    -moz-transition: all 0.6s ease-in;
-    -o-transition: all 0.6s ease-in;
-    transition: all 0.6s ease-in;
-}
-
-/* header end */
-
-
 
 
 
@@ -530,20 +349,6 @@ header {
     }
 }
 
-.animation-background {
-    animation: change 1s 0.7s ease-in both;
-}
-
-@keyframes change {
-
-    0% {
-        background-color: #cfcfcf;
-    }
-
-    100% {
-        background-color: red;
-    }
-}
 
 
 
@@ -1073,115 +878,6 @@ div.swiper-button-prev::after {
 }
 
 
-/* footer */
-
-footer {
-    background-color: #181a1d;
-    color: white;
-    padding: 40px 20px;
-    margin-top: 40px;
-}
-
-
-footer h3 {
-    font-weight: 400;
-    font-size: 17px;
-    margin-bottom: 7px;
-}
-
-.footer-h3 {
-    margin-bottom: 40px;
-
-}
-
-.subscribe-div {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    margin-bottom: 7px;
-}
-
-footer input {
-    background-color: #dcdddd;
-    border: none;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    padding: 0 10px;
-    width: 100%;
-}
-
-footer button {
-    color: white;
-    background-color: #f25035;
-    font-size: 17px;
-    padding: 8px 12px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border: none;
-}
-
-
-.subscribe p {
-    color: #6c757d;
-    font-size: 12px;
-}
-
-.footer-nav div img {
-    width: 50px;
-    margin: 15px 0;
-}
-
-.footer-nav h5 {
-    text-transform: uppercase;
-    font-size: 16px;
-}
-
-.footer-nav ul {
-    margin: 12px 0;
-}
-
-.footer-nav ul li a {
-    color: #fff;
-    font-size: 14px;
-
-}
-
-.footer-content {
-    margin-top: 40px;
-}
-
-.footer-content-bottom .footer-nav:last-child ul {
-    display: flex;
-    flex-direction: row;
-    column-gap: 12px;
-    margin-top: 15px;
-}
-
-.footer-nav:last-child i {
-    font-size: 18px;
-}
-
-.footer-content-top {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 10px;
-}
-
-.footer-content-bottom {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 10px;
-    margin-top: 12px;
-}
-
-.footer-last {
-    font-size: 12px;
-    color: #fff;
-    text-align: center;
-    margin-top: 50px;
-}
-
-
 
 .mobile {
     display: block;
@@ -1233,11 +929,7 @@ footer button {
         width: 50%;
         margin-left: 0;
     }
-
-    footer {
-        padding: 40px 40px;
-    }
-
+ 
 }
 
 @media only screen and (min-width: 768px) {
@@ -1256,17 +948,7 @@ footer button {
         column-gap: 10px;
     }
 
-    .header-div {
-        padding: 10px 12%;
-    }
-
-    .menu {
-        padding-left: 12%;
-    }
-
-    .vibe-logo {
-        font-size: 24px;
-    }
+  
 
     .cta-red {
         width: 35%;
@@ -1319,11 +1001,7 @@ footer button {
     .banner-aft-background img {
         width: 100%;
     }
-
-    .menu {
-        width: 88%;
-    }
-
+ 
     .turn-sexy {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -1415,35 +1093,7 @@ footer button {
     .cta-banner span {
         display: inline;
     }
-
-    .footer-div {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        justify-content: space-between;
-        column-gap: 40px;
-    }
-
-
-    .subscribe {
-        width: 50%;
-    }
-
-    .footer-content {
-        background-color: #1c1c1c;
-        background-image: url(../images/VYBE_logo.svg);
-        background-position: bottom;
-        background-repeat: no-repeat;
-        background-size: auto;
-
-    }
-
-    .footer-content {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 10px;
-
-    }
+ 
 
     .hydation24 {
         width: 20%;
@@ -1455,13 +1105,7 @@ footer button {
         margin: 75px auto;
     }
 
-    .footer-content-bottom {
-        margin-top: 0;
-    }
-
-    .footer-last {
-        text-align: left;
-    }
+  
 }
 
 

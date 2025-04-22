@@ -1,0 +1,122 @@
+.p{
+    color: #212529;
+
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: robotoBold;
+
+
+}
+
+.secret h4 {
+    color: var(--color-red);
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+.secret p {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 40px;
+    line-height: 1.5;
+    margin-bottom: 60px;
+}
+
+
+.back-blue{
+    background-color: #1dbddc;
+    margin: 0;
+    margin-top: -10px;
+}
+
+.back-blue h2{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+
+
+.back-blue p{
+    font-size: 14px;
+    line-height: 1.4; 
+
+}
+
+
+.long-story-p{
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.long-story-section ul{
+    margin-bottom: 25px;
+}
+.long-story-section ul li {
+    font-size: 14px;
+    line-height: 1.5;
+    border-left: 5px solid var(--color-red);
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.but-wait h3{
+    color: var(--color-red);
+    font-size: 32px;
+}
+
+
+.but-wait p{
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.products{
+    margin: 50px auto!important;
+}
+.product h3{
+    font-size: 20px;
+    font-family: robotoBold;
+
+}
+
+.product a{
+    color: var(--color-red);
+    font-family: robotoBold;
+    display: block;
+    margin: 20px auto;
+    font-size: 16px;
+}
+
+
+.border{
+    background-color: var(--color-red);
+    border-radius: 8px;
+    width: 60%;
+    margin: auto;
+    margin-right: 0;
+    padding: 40px;
+
+}
+
+.border img{
+    border-radius: 8px;
+    /* width: 80%; */
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.product-img{
+    width: 60%;
+    margin-top: -25px;
+    border-radius: 8px;
+
+}
