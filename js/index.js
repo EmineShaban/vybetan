@@ -74,6 +74,23 @@ document.querySelectorAll('.typography-div').forEach(div => {
 });  
 
 
+const observer4 = new IntersectionObserver(intersections => {
+    intersections.forEach(({
+        target,
+        isIntersecting
+    }) => {  
+        target.children[0].children[0].classList.toggle('expandIn-animation1', isIntersecting);
+        target.children[1].classList.toggle('expandIn-animation2', isIntersecting);
+    });
+}, {
+    threshold: 0
+});
+document.querySelectorAll('.product-imgs').forEach(div => {
+    observer4.observe(div);
+});  
+
+
+
 // Image hotspots 
 
 
