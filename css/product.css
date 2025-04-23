@@ -1,0 +1,199 @@
+p {
+    color: #212529;
+
+}
+
+
+.gold {
+    background: linear-gradient(-20deg, #b97426, #fbb263 59%, #d08738);
+    width: 75%;
+    margin-left: -17%;
+    padding: 10px;
+    padding-left: 28%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    color: white;
+    margin: 40px auto;
+}
+
+
+.card img {
+    filter: drop-shadow(13px 22px 1px rgba(31, 31, 31, .8));
+}
+
+.card h3 {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 900;
+    font-family: robotoBold;
+    margin-bottom: 7px;
+
+}
+
+.card h3 span {
+    color: black;
+}
+
+.card h5 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.hero-text {
+    width: 85%;
+    margin: auto;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+/* home-badges */
+
+.home-badges {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px auto;
+    width: 90%;
+}
+
+.home-badges img {
+    width: 22%;
+    margin: auto;
+}
+
+
+
+
+
+.check-my-vybe ul li img {
+    width: 40px;
+}
+
+.check-my-vybe ul li h3 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    color: #212529;
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 1;
+}
+
+.check-my-vybe ul li {
+    margin-bottom: 25px;
+}
+
+.check-my-vybe ul li p {
+    margin-top: 10px;
+    color: #999;
+
+}
+
+
+/* review */
+
+ .title {
+    font-size: 34px;
+    font-family: robotoBold;
+    text-transform: uppercase;
+    font-weight: 900;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.review .title span {
+    background: -webkit-linear-gradient(-20deg, #b97426 0%, #fbb263 59%, #d08738 100%);
+    color: white;
+}
+
+.review a {
+    background-color: #212529;
+    color: white;
+    display: block;
+    width: max-content;
+    padding: 5px 15px;
+    margin: auto;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+
+.review-div {
+
+    margin-top: -70px;
+}
+
+.review-div div:first-child {
+    position: relative;
+    z-index: 2;
+    background: -webkit-linear-gradient(-20deg, #b97426 0%, #fbb263 59%, #d08738 100%);
+    width: 65%;
+    margin: auto;
+    padding: 18px 45px;
+    border-radius: 15px;
+}
+
+.review-div div:first-child p{
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.review-div div:first-child:before {
+    font-family: "Playfair Display", serif; 
+    left: 15px;
+    top: 17px;
+    color: #fff;
+    content: "“";
+    font-size: 40px;
+    font-style: normal;
+    line-height: 1;
+    position: absolute;
+}
+
+ .testimonial-arrow-down {
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    border-top: 8px solid #ccc;
+    height: 0;
+    margin: 0 0 0 45px;
+    width: 0;
+    border-top-color: #d28b3d;
+
+}
+
+.avatar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;
+    width: 87%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.avatar img{
+    width: 25px;
+    border-radius: 50%;
+}
+
+.avatar p{
+    text-transform: uppercase;
+    font-weight: 900;
+}
