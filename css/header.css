@@ -72,6 +72,11 @@ h5 {
 header {
     font-family: robotoBold;
 }
+.header{
+
+    position: relative;
+    z-index: 2;
+}
 
 
 /* animation first line */
@@ -107,6 +112,7 @@ header {
     display: block;
     /* overflow: hidden; */
     margin: auto;
+    color: white;
 
 }
 
@@ -267,6 +273,14 @@ header {
     display: none;
 }
 
+.mobile994 {
+    display: block;
+}
+
+.desktop994{
+    display: none;
+}
+
 
 @media only screen and (min-width: 768px) {
     .mobile {
@@ -294,4 +308,85 @@ header {
  
  
   
+}
+
+
+
+
+@media only screen and (min-width: 994px) {
+    .mobile994 {
+        display: none;
+    }
+
+    .desktop994{
+        display: block;
+    }
+    .menu{
+        opacity: 1;
+        color: white;
+        flex-direction: row;
+        /* display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+        position: relative;
+        align-items: center;
+        transition: unset;
+        padding: 5px;
+        width: 65%;
+        margin: auto;
+    }
+    .menu a{
+        color: white;
+        margin: auto;
+    }
+    .menu a:first-child{
+        margin: auto;
+    }
+    .menu-prod:after {
+        border-bottom: 0;
+        border-left: .3em solid transparent;
+        border-right: .3em solid transparent;
+        border-top: .3em solid;
+        content: "";
+        display: inline-block;
+        margin-left: .255em;
+        vertical-align: .255em;
+    }
+
+
+
+
+
+
+
+
+    .dropdown-menu{ 
+        align-items: center;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        color: #fff; 
+        font-size: 17px;  
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        white-space: normal;
+    }
+    .dropdown-menu li{ 
+        margin-bottom: 7px;
+
+    }
+    .show{
+        position: absolute;
+        background-color: white;
+        border-radius: 5px;
+        border: 1px #ccc solid;
+        margin-top: 10px;
+        padding: 15px;
+    }
+    .show .dropdown-item{
+        font-family: robotoRegular;
+        padding: 10px 7px;
+        padding-right: 25px;
+        color: #212529;
+        font-weight: 400;
+    }
 }
