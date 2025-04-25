@@ -14,7 +14,10 @@ p {
     flex-direction: column;
     justify-content: center;
 }
-
+.red{
+    background: unset;
+    background-color: var(--color-red);
+}
 .card {
     display: grid;
     grid-template-columns: 50px 1fr;
@@ -118,6 +121,10 @@ p {
     background: -webkit-linear-gradient(-20deg, #b97426 0%, #fbb263 59%, #d08738 100%);
     color: white;
 }
+.review .title span.review-red{
+    background: unset;
+    background-color: var(--color-red);
+}
 
 .review a {
     background-color: #212529;
@@ -148,7 +155,10 @@ p {
     padding: 18px 45px;
     border-radius: 15px;
 }
-
+.review-div div.red{
+    background: unset;
+    background-color: var(--color-red);
+}
 .review-div div:first-child p {
     color: white;
     font-size: 16px;
@@ -177,7 +187,10 @@ p {
     border-top-color: #d28b3d;
 
 }
+.red-arrow{
+    border-top-color: var(--color-red);
 
+}
 .avatar {
     display: flex;
     flex-direction: row;
@@ -224,6 +237,10 @@ p {
     padding-left: 15px;
 }
 
+.formula-text div p.formula-red{
+    border-left: 4px solid var(--color-red);
+
+}
 .formula-img {
     display: flex;
     flex-direction: row;
@@ -237,7 +254,9 @@ p {
     font-size: 36px;
     color: #e39e43;
 }
-
+.formula-img h3.formula-img-red{
+    color: var(--color-red);
+}
 .formula-img img {
     margin-top: -25px;
 }
@@ -264,6 +283,10 @@ p {
     border-radius: 5px;
     margin-top: 7px;
 }
+.ingredients-red{
+    border: 3px solid var(--color-red);
+
+}
 
 
 .q {
@@ -276,7 +299,11 @@ p {
     padding: 5px;
     font-weight: 800;
 }
+.ingredients-red .q{
+    background: unset;
+    background-color: var(--color-red);
 
+}
 .q img {
     width: 30px;
 }
@@ -307,6 +334,10 @@ p {
     font-weight: 700;
     color: #d28b3d;
     text-transform: uppercase;
+}
+
+.effect h2.effect-red{
+color: var(--color-red);
 }
 
 .effect-position {
@@ -351,7 +382,9 @@ p {
     display: block;
     border-radius: 50%;
 }
-
+.effect-div p span.red{
+    background-color: var(--color-red);
+}
 .effect .last {
     margin: 40px 10px;
     text-align: center;
@@ -475,7 +508,10 @@ p {
 .faq .ingredients-div {
     border: none;
 }
-
+.faq .ingredients-div .q.ingr-red {
+background-color: var(--color-red);
+border: 3px solid var(--color-red);
+}
 .faq .ingredients-div .a {
     font-size: 14px;
     padding: 6px 6px;
@@ -697,9 +733,7 @@ p.user-reviews {
 }
 
 
-.mobile994 {
-    display: block;
-}
+ 
 
 .desktop994 {
     display: none;
@@ -1000,7 +1034,10 @@ p.user-reviews {
         font-size: 16px;
     }
 
-
+    .home-badges {
+        display: flex
+    ;
+    }
 }
 
 
