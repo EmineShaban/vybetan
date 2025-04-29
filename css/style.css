@@ -1104,7 +1104,11 @@ div.swiper-button-prev::after {
     .cta-banner {
         margin: 75px auto;
     }
-
+.banner-aft .product-cta {
+    margin: auto;
+    display: block;
+    margin-left: 0;
+}
   
 }
 
@@ -1369,13 +1373,17 @@ div.swiper-button-prev::after {
     .product {
         margin-bottom: 70px;
     }
+    .benefits{
+        width: 90%;
+        margin: auto;
+    }
 }
 
 
 @media only screen and (min-width: 1400px) {
     .sw-div {
         width: 85%;
-        min-height: 490px;
+        min-height: 480px;
     }
 
     .banner-aft-div h2 {
@@ -1448,10 +1456,24 @@ div.swiper-button-prev::after {
 
     }
 
+    .benefits{
+        width: 85%;
+        margin: auto;
+    }
+    .lg-container{
+        width: 85%;
+        margin: auto;
+    }
+.carousel-best-sellers {
+    width: 75%;
+    margin: auto;
+}
+.cta-banner{
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
 
-
-
-
+}
 
 
 }
@@ -1459,7 +1481,7 @@ div.swiper-button-prev::after {
 
 .sw-div {
     width: 85%;
-    min-height: 510px;
+    min-height: 450px;
 }
 }
 

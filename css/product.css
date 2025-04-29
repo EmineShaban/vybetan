@@ -14,10 +14,22 @@ p {
     flex-direction: column;
     justify-content: center;
 }
-.red{
+
+.red {
     background: unset;
     background-color: var(--color-red);
 }
+
+.yellow {
+    background: unset;
+    background-color: var(--color-yellow);
+}
+
+.blue {
+    background: unset;
+    background-color: var(--color-blue);
+}
+
 .card {
     display: grid;
     grid-template-columns: 50px 1fr;
@@ -25,9 +37,19 @@ p {
     margin: 40px auto;
 }
 
+.blue-grid {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+}
+
 
 .card img {
     filter: drop-shadow(13px 22px 1px rgba(31, 31, 31, .8));
+}
+
+.blue-grid.card img {
+    filter: unset;
+    z-index: 1;
 }
 
 .card h3 {
@@ -102,6 +124,10 @@ p {
 
 }
 
+.check-my-vybe .title span {
+    display: block;
+    color: var(--color-blue);
+}
 
 /* review */
 
@@ -121,9 +147,20 @@ p {
     background: -webkit-linear-gradient(-20deg, #b97426 0%, #fbb263 59%, #d08738 100%);
     color: white;
 }
-.review .title span.review-red{
+
+.review .title span.review-red {
     background: unset;
     background-color: var(--color-red);
+}
+
+.review .title span.review-yellow {
+    background: unset;
+    background-color: var(--color-yellow);
+}
+
+.review .title span.review-blue {
+    background: unset;
+    background-color: var(--color-blue);
 }
 
 .review a {
@@ -155,10 +192,22 @@ p {
     padding: 18px 45px;
     border-radius: 15px;
 }
-.review-div div.red{
+
+.review-div div.red {
     background: unset;
     background-color: var(--color-red);
 }
+
+.review-div div.yellow {
+    background: unset;
+    background-color: var(--color-yellow);
+}
+
+.review-div div.blue {
+    background: unset;
+    background-color: var(--color-blue);
+}
+
 .review-div div:first-child p {
     color: white;
     font-size: 16px;
@@ -187,10 +236,22 @@ p {
     border-top-color: #d28b3d;
 
 }
-.red-arrow{
+
+.red-arrow {
     border-top-color: var(--color-red);
 
 }
+
+.yellow-arrow {
+    border-top-color: var(--color-yellow);
+
+}
+
+.blue-arrow {
+    border-top-color: var(--color-blue);
+
+}
+
 .avatar {
     display: flex;
     flex-direction: row;
@@ -237,10 +298,21 @@ p {
     padding-left: 15px;
 }
 
-.formula-text div p.formula-red{
+.formula-text div p.formula-red {
     border-left: 4px solid var(--color-red);
 
 }
+
+.formula-text div p.formula-yellow {
+    border-left: 4px solid var(--color-yellow);
+
+}
+
+.formula-text div p.formula-blue {
+    border-left: 4px solid var(--color-blue);
+
+}
+
 .formula-img {
     display: flex;
     flex-direction: row;
@@ -254,9 +326,15 @@ p {
     font-size: 36px;
     color: #e39e43;
 }
-.formula-img h3.formula-img-red{
+
+.formula-img h3.formula-img-red {
     color: var(--color-red);
 }
+
+.formula-img h3.formula-img-yellow {
+    color: var(--color-yellow);
+}
+
 .formula-img img {
     margin-top: -25px;
 }
@@ -283,11 +361,21 @@ p {
     border-radius: 5px;
     margin-top: 7px;
 }
-.ingredients-red{
+
+.ingredients-red {
     border: 3px solid var(--color-red);
 
 }
 
+.ingredients-yellow {
+    border: 3px solid var(--color-yellow);
+
+}
+
+.ingredients-blue {
+    border: 3px solid var(--color-blue);
+
+}
 
 .q {
     background: -webkit-linear-gradient(-20deg, #b97426, #fbb263 59%, #d08738);
@@ -299,11 +387,25 @@ p {
     padding: 5px;
     font-weight: 800;
 }
-.ingredients-red .q{
+
+.ingredients-red .q {
     background: unset;
     background-color: var(--color-red);
 
 }
+
+.ingredients-yellow .q {
+    background: unset;
+    background-color: var(--color-yellow);
+
+}
+
+.ingredients-blue .q {
+    background: unset;
+    background-color: var(--color-blue);
+
+}
+
 .q img {
     width: 30px;
 }
@@ -336,8 +438,16 @@ p {
     text-transform: uppercase;
 }
 
-.effect h2.effect-red{
-color: var(--color-red);
+.effect h2.effect-red {
+    color: var(--color-red);
+}
+
+.effect h2.effect-yellow {
+    color: var(--color-yellow);
+}
+
+.effect h2.effect-blue {
+    color: var(--color-blue);
 }
 
 .effect-position {
@@ -382,9 +492,19 @@ color: var(--color-red);
     display: block;
     border-radius: 50%;
 }
-.effect-div p span.red{
+
+.effect-div p span.red {
     background-color: var(--color-red);
 }
+
+.effect-div p span.yellow {
+    background-color: var(--color-yellow);
+}
+
+.effect-div p span.blue {
+    background-color: var(--color-blue);
+}
+
 .effect .last {
     margin: 40px 10px;
     text-align: center;
@@ -508,10 +628,22 @@ color: var(--color-red);
 .faq .ingredients-div {
     border: none;
 }
+
 .faq .ingredients-div .q.ingr-red {
-background-color: var(--color-red);
-border: 3px solid var(--color-red);
+    background-color: var(--color-red);
+    border: 3px solid var(--color-red);
 }
+
+.faq .ingredients-div .q.ingr-yellow {
+    background-color: var(--color-yellow);
+    border: 3px solid var(--color-yellow);
+}
+
+.faq .ingredients-div .q.ingr-blue {
+    background-color: var(--color-blue);
+    border: 3px solid var(--color-blue);
+}
+
 .faq .ingredients-div .a {
     font-size: 14px;
     padding: 6px 6px;
@@ -733,7 +865,7 @@ p.user-reviews {
 }
 
 
- 
+
 
 .desktop994 {
     display: none;
@@ -914,6 +1046,14 @@ p.user-reviews {
     .stars {
         margin: 0;
     }
+    .blue-grid {
+        display: grid;
+        grid-template-columns: 90px 1fr;
+    }
+    .blue-grid img {
+        margin: auto;
+        margin-right: -50px;
+    }
 
 }
 
@@ -1035,9 +1175,23 @@ p.user-reviews {
     }
 
     .home-badges {
-        display: flex
-    ;
+        display: flex;
     }
+
+    .mobile994 {
+        display: none;
+    }
+
+    .blue-grid {
+        display: grid;
+        grid-template-columns: 130px 1fr;
+    }
+   
+    .blue-grid img {
+        margin: auto;
+        margin-right: -40px;
+    }
+
 }
 
 
@@ -1083,7 +1237,14 @@ p.user-reviews {
         display: none;
     }
 
-
+    .blue-grid {
+        display: grid;
+        grid-template-columns: 150px 1fr;
+    }
+    .blue-grid img {
+        margin: auto;
+        margin-right: -50px;
+    }
 
 
 
@@ -1118,6 +1279,15 @@ p.user-reviews {
     .how-to-use-div {
         width: 75%;
         margin: auto;
+    }
+
+    .blue-grid {
+        display: grid;
+        grid-template-columns: 180px 1fr;
+    }
+    .blue-grid img {
+        margin: auto;
+        margin-right: -60px;
     }
 
 
