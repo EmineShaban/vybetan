@@ -71,7 +71,9 @@ p {
     line-height: 1.2;
     text-align: left;
 }
-
+.hero{
+    margin-top: 170px;
+}
 .hero-text {
     width: 85%;
     margin: auto;
@@ -185,8 +187,7 @@ p {
 
 .review-div div:first-child {
     position: relative;
-    z-index: 2;
-    background: -webkit-linear-gradient(-20deg, #b97426 0%, #fbb263 59%, #d08738 100%);
+     background: -webkit-linear-gradient(-20deg, #b97426 0%, #fbb263 59%, #d08738 100%);
     width: 65%;
     margin: auto;
     padding: 18px 45px;
@@ -481,10 +482,17 @@ p {
     flex-direction: row;
     align-items: center;
     column-gap: 10px;
-    font-size: 25px;
+    font-size: 18px;
     color: white;
+    width: max-content;
 }
 
+.effect-red-div .effect-div {
+    position: absolute;
+    top: 68%;
+    left: 49%;
+
+}
 .effect-div p span {
     width: 20px;
     height: 20px;

@@ -71,14 +71,23 @@ h5 {
 
 header {
     font-family: robotoBold;
+    position: fixed;
+    width: 100%; 
+    top: 0;
+    z-index: 22;    
+
+
 }
 .header{
 
     position: relative;
-    z-index: 2;
+    z-index: 4;
+
+} 
+
+.hero{
+    margin-top: 80px;
 }
-
-
 /* animation first line */
 
 .first-line-div {
@@ -89,7 +98,7 @@ header {
     height: 30px;
     /* height: 350px; */
     font-size: 12px;
-    /* overflow: hidden; */
+    overflow: hidden;
 
 
 }
@@ -199,6 +208,8 @@ header {
 .shopping-bag i {
     color: white;
     font-size: 24px;
+   
+
 }
 
 /* menu */
