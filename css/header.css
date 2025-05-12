@@ -1,17 +1,15 @@
-
 :root {
     --color-pink: #dc3545;
     --color-red: #f25035;
     --color-yellow: #ffd119;
     --color-brown: #dc9441;
     --color-blue: #1dbddc;
-    --color-green: #28a745
+    --color-green: #28a745;
 }
 
 html {
     scroll-behavior: smooth;
     color: #212529;
-
 }
 
 @font-face {
@@ -39,11 +37,8 @@ html {
     src: url(../fonts/Roboto/Roboto-Black.ttf);
 }
 
-
-
 body {
     font-family: robotoRegular;
-
 }
 
 img {
@@ -63,8 +58,7 @@ h2,
 h3,
 h4,
 h5 {
-    line-height: 1.4; 
-
+    line-height: 1.4;
 }
 
 /* header */
@@ -72,22 +66,20 @@ h5 {
 header {
     font-family: robotoBold;
     position: fixed;
-    width: 100%; 
+    width: 100%;
     top: 0;
-    z-index: 22;    
-
-
+    z-index: 22;
 }
-.header{
 
+.header {
     position: relative;
     z-index: 4;
+}
 
-} 
-
-.hero{
+.hero {
     margin-top: 80px;
 }
+
 /* animation first line */
 
 .first-line-div {
@@ -99,22 +91,17 @@ header {
     /* height: 350px; */
     font-size: 12px;
     overflow: hidden;
-
-
 }
 
 .animation div:first-child {
     animation: my-animation 15s infinite;
     padding-top: 7px;
-
 }
 
 .animation div {
     display: block;
     height: 65px;
     margin-bottom: 10px;
-
-
 }
 
 .animation-line {
@@ -122,57 +109,49 @@ header {
     /* overflow: hidden; */
     margin: auto;
     color: white;
-
 }
-
-
 
 @keyframes my-animation {
     0% {
-        margin-top: 0
+        margin-top: 0;
     }
 
     10% {
-        margin-top: 0
+        margin-top: 0;
     }
 
     20% {
-        margin-top: -75px
+        margin-top: -75px;
     }
 
     30% {
-        margin-top: -75px
+        margin-top: -75px;
     }
 
     40% {
-        margin-top: -150px
+        margin-top: -150px;
     }
 
     60% {
-        margin-top: -150px
+        margin-top: -150px;
     }
 
     70% {
-        margin-top: -75px
+        margin-top: -75px;
     }
 
     80% {
-        margin-top: -75px
+        margin-top: -75px;
     }
 
     90% {
-        margin-top: 0
+        margin-top: 0;
     }
 
     100% {
-        margin-top: 0
+        margin-top: 0;
     }
 }
-
-
-
-
-
 
 /* header */
 .header-div {
@@ -208,8 +187,6 @@ header {
 .shopping-bag i {
     color: white;
     font-size: 24px;
-   
-
 }
 
 /* menu */
@@ -267,7 +244,6 @@ header {
 }
 
 @keyframes change {
-
     0% {
         background-color: #cfcfcf;
     }
@@ -276,6 +252,7 @@ header {
         background-color: red;
     }
 }
+
 .mobile {
     display: block;
 }
@@ -288,10 +265,9 @@ header {
     display: block;
 }
 
-.desktop994{
+.desktop994 {
     display: none;
 }
-
 
 @media only screen and (min-width: 768px) {
     .mobile {
@@ -302,7 +278,6 @@ header {
         display: block;
     }
 
-
     .header-div {
         padding: 10px 12%;
     }
@@ -310,29 +285,23 @@ header {
     .menu {
         padding-left: 12%;
         width: 88%;
-
     }
 
     .vibe-logo {
         font-size: 24px;
     }
- 
- 
-  
 }
-
-
-
 
 @media only screen and (min-width: 994px) {
     .mobile994 {
         display: none;
     }
 
-    .desktop994{
+    .desktop994 {
         display: block;
     }
-    .menu{
+
+    .menu {
         opacity: 1;
         color: white;
         flex-direction: row;
@@ -345,47 +314,44 @@ header {
         width: 65%;
         margin: auto;
     }
-    .menu a{
+
+    .menu a {
         color: white;
         margin: auto;
     }
-    .menu a:first-child{
+
+    .menu a:first-child {
         margin: auto;
     }
+
     .menu-prod:after {
         border-bottom: 0;
-        border-left: .3em solid transparent;
-        border-right: .3em solid transparent;
-        border-top: .3em solid;
+        border-left: 0.3em solid transparent;
+        border-right: 0.3em solid transparent;
+        border-top: 0.3em solid;
         content: "";
         display: inline-block;
-        margin-left: .255em;
-        vertical-align: .255em;
+        margin-left: 0.255em;
+        vertical-align: 0.255em;
     }
 
-
-
-
-
-
-
-
-    .dropdown-menu{ 
+    .dropdown-menu {
         align-items: center;
         border-radius: 4px;
         -webkit-border-radius: 4px;
-        color: #fff; 
-        font-size: 17px;  
+        color: #fff;
+        font-size: 17px;
         padding: 0.5rem 1rem;
         text-decoration: none;
         text-transform: uppercase;
         white-space: normal;
     }
-    .dropdown-menu li{ 
-        margin-bottom: 7px;
 
+    .dropdown-menu li {
+        margin-bottom: 7px;
     }
-    .show{
+
+    .show {
         position: absolute;
         background-color: white;
         border-radius: 5px;
@@ -393,7 +359,8 @@ header {
         margin-top: 10px;
         padding: 15px;
     }
-    .show .dropdown-item{
+
+    .show .dropdown-item {
         font-family: robotoRegular;
         padding: 10px 7px;
         padding-right: 25px;
